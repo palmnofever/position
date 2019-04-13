@@ -1,0 +1,112 @@
+/* * {
+    margin: 0;
+    padding: 0; 
+} */ 
+
+body {
+    /* background: rgb(85, 80, 80); */
+    /* background-color: #555555; */
+    /* filter:invert(1) hue-rotate(210deg); */ /*change to night mode*/
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://source.unsplash.com/random/1920x1080'); 
+    
+}
+
+.nav-contain{
+    font-size: 1em; 
+    margin: 2em;
+    position: fixed;
+    right: 10rem;
+    text-decoration: none;
+    padding: 10px;
+    border: solid darkgray;
+}
+
+.nav-contain a{
+    text-decoration: none;
+    display: flex;
+    display: inline;
+    padding: 10px;   
+    color: floralwhite;
+}
+
+.home-contain{
+    height: 100vh; /*Show full screen inside head class*/
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2.5em;   
+    padding: 30px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .link1{
+    text-decoration: none;
+}
+
+.boxes{
+    padding: 20px;
+    margin: 0 100px;
+    text-align: center;
+    background: black;
+}
+
+.box{
+    font-weight: bold;
+    width: 30%;
+    margin: 10px auto;
+    padding: 40px;
+    font-size: 3em;
+    /* border-radius: 50%; */
+}
+
+.box1{
+    color: #ef12a2;
+    background: #bdafad;
+    cursor: pointer;
+    /* position: fixed; 
+    top: 60px;
+    right: 60px; */
+    /*fixed mostly use for navbar*/
+}
+
+.box2{
+    color: green;
+    background: #ee6899;
+    /* position: relative;
+    top: 60px;
+    right: 60px; */
+}
+
+.box3{
+    color: #23d692;
+    background: #291b20;
+    /* position: absolute;
+    top: 60px;
+    right: 60px; */
+}
+
+.box4{
+    color: lightcoral;
+    background: blue;
+}
+
+.longBox{
+    background: #aaa66a;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 100px;   
+}
